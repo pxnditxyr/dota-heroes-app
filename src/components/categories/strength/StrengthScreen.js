@@ -1,14 +1,12 @@
 import React from 'react';
 
-export const Strength = () => {
+export const StrengthScreen = () => {
 
     return (
-
         <>
             <h1> Strength Screen </h1>
             <hr />
         </>
-
     );
 
 };
