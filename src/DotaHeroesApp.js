@@ -1,11 +1,9 @@
 import React from 'react';
+import { AppRouter } from './routers/AppRouter';
 
 export const DotaHeroesApp = () => {
     return (
-        <>
-            <h1> Dota Heroes App </h1>
-            <hr />
-        </>
+        <AppRouter />
     );
 };
 
