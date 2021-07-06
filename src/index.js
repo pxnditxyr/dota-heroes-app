@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import { DotaHeroesApp } from './DotaHeroesApp';
+
 ReactDOM.render(
-    <h1> Hello to the Dota heroes page </h1>,
+    <DotaHeroesApp />,
     document.querySelector( '#root' ),
 );
