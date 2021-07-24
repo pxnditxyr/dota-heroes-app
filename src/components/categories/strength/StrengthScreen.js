@@ -1,4 +1,5 @@
 import React from 'react';
+import { HeroesList } from '../../heroes/HeroesList';
 
 export const StrengthScreen = () => {
 
@@ -6,6 +7,7 @@ export const StrengthScreen = () => {
         <>
             <h1> Strength Screen </h1>
             <hr />
+            <HeroesList publisher="Strength" />
         </>
     );
 
